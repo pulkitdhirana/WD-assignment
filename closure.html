@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Closure</title>
+<script type="text/javascript">
+		function add(x,y){
+			function addition()
+			{
+				return "Addition is: "+(x+y);
+			}
+			return addition();
+		}
+var z=add(20,30);
+document.write(z);
+</script>
+</head>
+<body>
+</body>
+</html>
